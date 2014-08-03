@@ -4,7 +4,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
@@ -13,3 +12,5 @@ hs_err_pid*
 /bin/
 /data/
 /output/
+/.classpath
+/.project
