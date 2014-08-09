@@ -102,11 +102,11 @@ public class SimTest {
             }
             try {
                 writer.close();
+                System.out.println("Done writing " + outFile.getAbsolutePath());
             } catch (IOException e) {
                 e.printStackTrace();
             }
             
-            System.out.println("Done writing " + t + ".txt");
             s = null;
         }
     }
